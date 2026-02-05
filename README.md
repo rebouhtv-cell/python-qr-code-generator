@@ -31,7 +31,7 @@ Run the script using:
 python script.py
 
 Then enter a URL when prompted, for example:
-https://www.linkedin.com/in/your-profile
+(https://www.linkedin.com/in/sidahmed-rebouh-99501b3a8/)
 
 Output
 ------
