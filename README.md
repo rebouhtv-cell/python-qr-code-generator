@@ -11,10 +11,11 @@ or any URL.
 
 Requirements
 ------------
+- any coding program
 - Python 3.x
 - qrcode library
 
-Install dependencies with:
+Install dependencies in terminal with:
 pip install qrcode[pil]
 
 How It Works
