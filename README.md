@@ -28,7 +28,7 @@ How It Works
 Usage
 -----
 Run the script using:
-python script.py
+python
 
 Then enter a URL when prompted, for example:
 (https://www.linkedin.com/in/sidahmed-rebouh-99501b3a8/)
