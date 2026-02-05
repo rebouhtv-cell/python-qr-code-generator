@@ -46,7 +46,3 @@ Notes
 -----
 - The Desktop path is detected dynamically, so the script works for any user.
 - You can change the filename or customize the QR code size and colors easily.
-
-Author
-------
-Rebouhtvhardware
