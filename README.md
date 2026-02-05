@@ -13,14 +13,9 @@ Requirements
 ------------
 - Python 3.x
 - qrcode library
-- Pillow library (used internally by qrcode)
 
 Install dependencies with:
 pip install qrcode[pil]
-
-Files
------
-- script.py : Main Python script that generates the QR code
 
 How It Works
 ------------
