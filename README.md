@@ -33,6 +33,24 @@ python script.py
 Then enter a URL when prompted, for example:
 (https://www.linkedin.com/in/sidahmed-rebouh-99501b3a8/)
 
+```
+import os
+import qrcode
+
+url = input("Enter the URL: ").strip()
+
+desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
+file_path = os.path.join(desktop_path, "image.png")
+
+qr = qrcode.QRCode()
+qr.add_data(url)
+
+img = qr.make_image()
+img.save(file_path)
+
+print("Qr Code Generated and saved in desktop!")
+```
+
 Output
 ------
 - A file named "image.png" will appear on the Desktop.
